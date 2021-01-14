@@ -1,0 +1,14 @@
+.articles {
+    @include d-flex-wrap(wrap);
+    padding: 4rem;
+
+    /* p{
+        @include colorier(coral);
+    }*/
+   
+
+    article {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+}
